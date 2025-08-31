@@ -2,142 +2,138 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Rompiendo el Silencio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rompiendo el Silencio - Cuentos</title>
   <style>
     body {
-      font-family: "Arial", sans-serif;
-      background: #f0fbfa;
       margin: 0;
-      padding: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #a0e7e5, #b4f8c8);
       color: #333;
+      line-height: 1.6;
     }
 
-    /* Encabezado */
     header {
-      background: linear-gradient(135deg, #43cea2, #185a9d);
-      padding: 50px 20px 60px;
+      background: url("https://picsum.photos/1200/300?blur") no-repeat center center/cover;
       text-align: center;
+      padding: 60px 20px;
       color: white;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      position: relative;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 3rem;
-      letter-spacing: 2px;
-    }
-    header p {
-      margin-top: 15px;
-      font-size: 1.3rem;
-      font-weight: 300;
-    }
-    header img {
-      width: 90px;
-      position: absolute;
-      top: 15px;
-      right: 20px;
-      border-radius: 50%;
-      border: 3px solid white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     }
 
-    /* Cuentos */
-    .cuento {
-      max-width: 900px;
-      margin: 50px auto;
-      padding: 30px;
-      background: linear-gradient(180deg, #ffffff, #e6f9f7);
-      border-radius: 20px;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-      line-height: 1.8;
-      font-size: 1.1rem;
-      position: relative;
+    header::after {
+      content: "📖✨";
+      display: block;
+      margin-top: 10px;
+      font-size: 1.5rem;
     }
-    .cuento h2 {
+
+    nav {
+      background: rgba(255,255,255,0.6);
+      padding: 10px;
       text-align: center;
-      color: #2e8b57;
-      font-size: 1.8rem;
-      margin-bottom: 25px;
     }
 
-    /* Imágenes a los costados */
-    .lado-izq {
-      float: left;
-      margin: 0 20px 15px 0;
-      max-width: 130px;
-      border-radius: 15px;
-    }
-    .lado-der {
-      float: right;
-      margin: 0 0 15px 20px;
-      max-width: 130px;
-      border-radius: 15px;
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #1b7c6f;
+      font-weight: bold;
     }
 
-    /* Footer */
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .cuento {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+
+    .cuento img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .cuento h2 {
+      margin-top: 0;
+      color: #1b7c6f;
+    }
+
     footer {
       text-align: center;
-      background: linear-gradient(135deg, #43cea2, #185a9d);
-      color: white;
       padding: 20px;
-      margin-top: 50px;
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px;
-      font-size: 0.95rem;
+      background: rgba(0,0,0,0.05);
+      margin-top: 40px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>✨ Rompiendo el Silencio ✨</h1>
-    <p>📚 Cuentos que inspiran, enseñan y promueven un mundo sin violencia 💚</p>
-    <img src="https://cdn-icons-png.flaticon.com/512/3069/3069172.png" alt="logo libro">
+    Rompiendo el Silencio
   </header>
 
-  <!-- Primer cuento -->
-  <section class="cuento">
-    <h2>Las palabras que callamos</h2>
-    <img src="https://cdn-icons-png.flaticon.com/512/706/706830.png" alt="niña leyendo" class="lado-izq">
-    <p>
-      Alicia era una niña solitaria, la única que no tenía amigos en su salón, lo cual no le afectaba demasiado, ya que se dedicaba a ser aplicada, aunque no sabía cómo hacer amistades. Todos los días en la hora de recreo leía un buen libro para aprender más. Sus compañeros notaron ese hábito: algunos lo ignoraron y otros decidieron burlarse, sin saber que eso pronto traería consecuencias graves para todos, incluso para Alicia.
-    </p>
-    <p>
-      Un día diferente, Alicia decidió salir un momento a comprar agua. Al pasar por el kiosco escuchó murmullos de sus compañeros. Algunos decían: “¡Milagro! Salió la que nunca sale, qué solitaria”, y lo que más le dolió fueron los comentarios hirientes de un grupo de amigos que hablaban de su forma de ser. Alicia, aunque herida, decidió mantener la calma.
-    </p>
-    <img src="https://cdn-icons-png.flaticon.com/512/201/201818.png" alt="profesora" class="lado-der">
-    <p>
-      Esa tarde, habló con su tutora. La profesora citó a los compañeros que habían dicho esos comentarios. Alicia seguía tranquila. Cuando la profesora le preguntó por qué se sentía así, respondió: “Las palabras que me dijeron fueron hirientes, pero mantuve la calma porque sé que perder el control podría generar más caos. No les guardo rencor, solo espero que me pidan perdón y podamos hacer las paces”.
-    </p>
-    <p>
-      Sus compañeros, conmovidos, lloraron y le pidieron disculpas. La maestra felicitó a Alicia por su fortaleza. Al día siguiente, Alicia decidió enseñarles algo nuevo: compartió un cuento y una historieta sobre la violencia verbal y cómo pedir ayuda para evitarla. Sus compañeros la escucharon, aprendieron y agradecieron. Desde entonces, salieron juntos al recreo como verdaderos amigos.
-    </p>
-    <p><strong>FIN</strong></p>
-  </section>
+  <nav>
+    <a href="#cuento1">📘 Cuento 1</a>
+    <a href="#cuento2">⚽ Cuento 2</a>
+    <a href="#cuento3">🌈 Cuento 3</a>
+  </nav>
 
-  <!-- Segundo cuento -->
-  <section class="cuento">
-    <h2>Un partido perdido</h2>
-    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="jugador de fútbol" class="lado-izq">
-    <p>
-      En un partido de fútbol, había un equipo que estaba perdiendo por cantidad de goles. El equipo estaba abrumado y molesto porque uno de sus integrantes, llamado Mateo, no "servía" ya que no anotaba goles. Desde las bancas su salón lo abucheaba y lanzaban comentarios negativos sobre su desempeño, lo que hacía que Mateo se pusiera cada vez más nervioso.
-    </p>
-    <p>
-      Cuando terminó el partido y anunciaron la derrota, todos estaban molestos con Mateo. Lo insultaban mientras él mantenía la cabeza agachada. Fue entonces cuando un compañero, Lucas, pidió a los demás que dejaran de atacarlo. Todos se sorprendieron y guardaron silencio, mientras los murmullos llenaban el ambiente.
-    </p>
-    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046787.png" alt="amigos apoyando" class="lado-der">
-    <p>
-      Lucas se acercó y le dijo: “Yo no te juzgaré, ni diré nada malo. Solo te apoyaré porque sé que diste todo de ti en el partido”. Mateo, conmovido, lloró, pues no esperaba que alguien lo defendiera.
-    </p>
-    <p>
-      Luego Mateo se armó de valor y expresó a todos que no le gustaba cómo lo trataban y que los comentarios y burlas le dolían mucho. La mayoría de sus compañeros le pidió perdón, aunque un pequeño grupo todavía estaba resentido por la derrota y lanzó más insultos. Sin embargo, los demás los corrigieron y aconsejaron que investigaran sobre lo que estaban haciendo.
-    </p>
-    <p>
-      Algunos buscaron en internet sobre la violencia verbal y entendieron que lo que habían hecho estaba mal. Decidieron mejorar como grupo y aprender del error. Mateo y Lucas, mientras tanto, fueron juntos al kiosco a celebrar que habían dado todo de sí mismos en el partido.
-    </p>
-    <p><strong>FIN</strong></p>
-  </section>
+  <div class="container">
+    <div class="cuento" id="cuento1">
+      <img src="https://picsum.photos/200/200?random=1" alt="Ilustración cuento 1">
+      <div>
+        <h2>Las palabras que callamos 📘</h2>
+        <p>
+          Alicia era una niña solitaria, la única sin amigos en su salón. Aunque era aplicada, no sabía cómo relacionarse.  
+          Durante los recreos leía libros, hasta que un día escuchó comentarios hirientes sobre ella...  
+          Con calma decidió pedir ayuda a su tutora, y demostró a todos que el respeto y la empatía son más fuertes que la burla.  
+          Sus compañeros, arrepentidos, pidieron perdón y juntos aprendieron el valor de controlar las emociones. 🌟
+        </p>
+      </div>
+    </div>
+
+    <div class="cuento" id="cuento2">
+      <img src="https://picsum.photos/200/200?random=2" alt="Ilustración cuento 2">
+      <div>
+        <h2>Un partido perdido ⚽</h2>
+        <p>
+          Luis era apasionado por el fútbol, pero en un partido sus amigos comenzaron a burlarse de él por un error.  
+          Triste, pensó en abandonar el deporte, hasta que el entrenador reunió al equipo y les recordó que el respeto y el apoyo mutuo son más importantes que ganar.  
+          Ese día, Luis comprendió que la verdadera victoria está en la amistad. 🤝
+        </p>
+      </div>
+    </div>
+
+    <div class="cuento" id="cuento3">
+      <img src="https://picsum.photos/200/200?random=3" alt="Ilustración cuento 3">
+      <div>
+        <h2>Colores de respeto 🌈</h2>
+        <p>
+          En una escuela, los niños discutían porque todos querían que su color favorito fuese “el mejor”.  
+          La profesora les mostró un arcoíris y explicó que cada tono brilla más cuando está junto a los demás.  
+          Así, entendieron que la diversidad es lo que hace al mundo más bello y que nadie debe imponerse sobre otro. 🌍✨
+        </p>
+      </div>
+    </div>
+  </div>
 
   <footer>
-    © 2025 Rompiendo el Silencio - Promoviendo el respeto y la amistad 🌱✨
+    🌱 Proyecto <b>Rompiendo el Silencio</b> — creado por <b>Jared Cumpa Gonzales</b>.  
+    “Sembrando respeto y amistad en cada cuento”. 💚
   </footer>
 </body>
 </html>
